@@ -13,6 +13,10 @@
 		3CCADFC32A35FF2E001191FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCADFC12A35FF2E001191FA /* Main.storyboard */; };
 		3CCADFC52A35FF31001191FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CCADFC42A35FF31001191FA /* Assets.xcassets */; };
 		3CCADFC82A35FF31001191FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCADFC62A35FF31001191FA /* LaunchScreen.storyboard */; };
+		3CCADFD02A3600EE001191FA /* containerView2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCADFCF2A3600EE001191FA /* containerView2.storyboard */; };
+		3CCADFD22A3600FE001191FA /* container2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCADFD12A3600FE001191FA /* container2ViewController.swift */; };
+		3CCADFD42A360884001191FA /* container3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCADFD32A360884001191FA /* container3ViewController.swift */; };
+		3CCADFD62A360891001191FA /* containerView3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCADFD52A360891001191FA /* containerView3.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3CCADFC42A35FF31001191FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CCADFC72A35FF31001191FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CCADFC92A35FF31001191FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CCADFCF2A3600EE001191FA /* containerView2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = containerView2.storyboard; sourceTree = "<group>"; };
+		3CCADFD12A3600FE001191FA /* container2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = container2ViewController.swift; sourceTree = "<group>"; };
+		3CCADFD32A360884001191FA /* container3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = container3ViewController.swift; sourceTree = "<group>"; };
+		3CCADFD52A360891001191FA /* containerView3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = containerView3.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				3CCADFBD2A35FF2E001191FA /* SceneDelegate.swift */,
 				3CCADFBF2A35FF2E001191FA /* ViewController.swift */,
 				3CCADFC12A35FF2E001191FA /* Main.storyboard */,
+				3CCADFD12A3600FE001191FA /* container2ViewController.swift */,
+				3CCADFCF2A3600EE001191FA /* containerView2.storyboard */,
+				3CCADFD32A360884001191FA /* container3ViewController.swift */,
+				3CCADFD52A360891001191FA /* containerView3.storyboard */,
 				3CCADFC42A35FF31001191FA /* Assets.xcassets */,
 				3CCADFC62A35FF31001191FA /* LaunchScreen.storyboard */,
 				3CCADFC92A35FF31001191FA /* Info.plist */,
@@ -125,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CCADFD02A3600EE001191FA /* containerView2.storyboard in Resources */,
+				3CCADFD62A360891001191FA /* containerView3.storyboard in Resources */,
 				3CCADFC82A35FF31001191FA /* LaunchScreen.storyboard in Resources */,
 				3CCADFC52A35FF31001191FA /* Assets.xcassets in Resources */,
 				3CCADFC32A35FF2E001191FA /* Main.storyboard in Resources */,
@@ -139,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CCADFC02A35FF2E001191FA /* ViewController.swift in Sources */,
+				3CCADFD42A360884001191FA /* container3ViewController.swift in Sources */,
+				3CCADFD22A3600FE001191FA /* container2ViewController.swift in Sources */,
 				3CCADFBC2A35FF2E001191FA /* AppDelegate.swift in Sources */,
 				3CCADFBE2A35FF2E001191FA /* SceneDelegate.swift in Sources */,
 			);
